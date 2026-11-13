@@ -84,6 +84,7 @@ body {
     text-align: justify;
     line-height: 25px;
     word-spacing: 2px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .know-us {
@@ -108,81 +109,116 @@ body {
     height: 280px;
     object-fit: cover;
     border-radius: 10px;
-    border: 5px solid;
     box-shadow: 20px 15px 1px #e8b4bc;
 }
 
 .about-us {
-    background-color: #e2e2e2;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    background-image: url("images/about-us.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
 }
 
 .about-us-cover {
+    display: flex;
     width: 1260px;
     max-width: 90%;
-    margin: 80px auto;
+    margin: -70px auto;
     color: black;
 }
 
-.about-us-cover h3 {
-    color: #8d0e0e;
-    font-size: 20px;
+.about-us-desc {
+    margin-left: -20px;
 }
 
-.about-us-cover h1 {
+.about-us-desc h3 {
+    color: #6b1d2a;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.about-us-desc h1 {
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
     font-size: 50px;
 }
 
-.header-highlight {
-    color: #8d0e0e;
+.about-us-desc span {
+    color: #4a1019;
 }
 
-.about-us-cover p {
+.about-us-desc p {
     width: 90%;
-    margin-top: 40px;
+    color: #4a1019;
     text-align: justify;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 30px;
     word-spacing: 1px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.about-us-img {
+    margin-top: 30px;
+}
+
+.about-us-img img {
+    width: 320px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 20px 15px 1px #e8b4bc;
+}
+
+.about-us-history {
+    background-color: #eedfdf;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
 }
 
 .about-us-history-cover {
     width: 1260px;
     max-width: 90%;
-    margin: 80px auto;
+    margin: -50px auto;
 }
 
 .about-us-history-cover h1 {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
+    color: #4a1019;
 }
 
-.bsit-history {
+.bsit-history-1 {
     text-align: center;
     width: 60%;
 }
 
-.bsit-history p {
+.bsit-history-1 p {
     margin-right: auto;
     margin-left: auto;
     margin-top: 55px;
     text-align: justify;
     line-height: 35px;
     word-spacing: 1px;
+    font-family: "DM Sans", sans-serif;
 }
 
-.bsit-history-img {
+.bsit-history-1-img {
     float: right;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
-.bsit-history-img img {
+.bsit-history-1-img img {
     width: 350px;
     height: 250px;
     object-fit: cover;
     border-radius: 20px;
-    border: 5px solid #8d0e0e;
-    box-shadow: 1px 1px 5px black;
+    border: 3px solid #4a1019;
+    box-shadow: 20px 15px 1px #e8b4bc;
 }
 
 .bsit-history-2 {
@@ -199,6 +235,7 @@ body {
     text-align: justify;
     line-height: 35px;
     word-spacing: 1px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .bsit-history-2-img {
@@ -211,8 +248,8 @@ body {
     height: 250px;
     object-fit: cover;
     border-radius: 20px;
-    border: 5px solid #8d0e0e   ;
-    box-shadow: 1px 1px 5px black;
+    border: 3px solid #4a1019;
+    box-shadow: 20px 15px 1px #e8b4bc;
 }
 
 .bsit-history-3 {
@@ -228,6 +265,7 @@ body {
     text-align: justify;
     line-height: 35px;
     word-spacing: 1px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .bsit-history-3-img {
@@ -240,100 +278,138 @@ body {
     height: 250px;
     object-fit: cover;
     border-radius: 20px;
-    border: 5px solid #8d0e0e;
-    box-shadow: 1px 1px 5px black;
+    border: 3px solid #4a1019;
+    box-shadow: 20px 15px 1px #e8b4bc;
 }
 
 .about-us-changes {
-    background-color: #e2e2e2;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-image: url("images/about-us.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
+    font-family: "DM Sans", sans-serif;
 }
 
 .about-us-changes-cover {
-    background-color: #8d0e0e;
+    background-color: #fbf8f7;
     width: 1260px;
     max-width: 90%;
-    margin: 80px auto;
-    padding: 50px 30px;
-    color: white;
-    border: 5px solid white;
+    margin: -50px auto;
+    padding: 70px 20px;
+    color: black;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 10px #e8b4bc;
 }
 
 .about-us-changes-cover h1 {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
+    color: #4a1019;
+    margin-top: -20px;
 }
 
 .department-logos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.department-logos div {
-    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 70px;
     text-align: center;
+    color: #4a1019;
 }
 
 .ccs-logo img, .tech-logo img {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 20px;
-    border: 5px solid #e2e2e2;
-    box-shadow: 1px 1px 5px black;
+    border: 3px solid #e8b4bc;
+    border-radius: 200px;
 }
 
-.arrow-logo img {
-    width: 300px;
-    height: 220px;
-    object-fit: cover;
-    margin-top: 40px;
+.arrow-logo {
+    margin-top: -50px;
 }
 
-.about-us-changes-desc  {
-    width: 1260px;
-    max-width: 90%;
-    margin: 80px auto;
+.arrow-logo p {
+    font-size: 50px;
+    background-color: #e8b4bc;
+    border-radius: 100px;
+    padding: 20px 30px;
+}
+
+.about-us-changes-desc {
+    margin-top: 50px;
 }
 
 .about-us-changes-desc p {
-    width: 80%;
-    margin: auto;
+    width: 90%;
     text-align: justify;
-    font-style: italic;
+    margin-right: auto;
+    margin-left: auto;
     line-height: 35px;
-    word-spacing: 1px;
+    font-size: 16px;
+    color: #4a1019;
+}
+
+.about-us-courses {
+    background-color: #eedfdf;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
+    font-family: "DM Sans", sans-serif;
 }
 
 .about-us-courses-cover {
     width: 1260px;
     max-width: 90%;
-    margin: 80px auto;
+    margin: -50px auto;
 }
 
 .about-us-courses-cover h1 {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
+    color: #4a1019;
+    margin-top: -20px;
 }
 
-.courses-logo {
+.courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.courses-logo div {
     margin-top: 50px;
-    text-align: center;
+    gap: 30px;
 }
 
-.itp-logo img, .dbms-logo img,
-.web-logo img, .app-logo img,
-.net-logo img, .security-logo img  {
-    width: 300px;
-    height: 300px;
+.itp-container, .dbm-container,
+.web-container, .app-container,
+.net-container, .sec-container {
+    margin: 5px;
+}
+
+.itp-container img, .dbm-container img,
+.web-container img, .app-container img,
+.net-container img, .sec-container img {
+    width: 350px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 20px;
-    border: 5px solid #8d0e0e;
-    box-shadow: 1px 1px 5px black;
+    display: block;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 10px 15px 1px #e8b4bc;
+}
+
+.itp-desc, .dbm-desc,
+.web-desc, .app-desc,
+.net-desc, .sec-desc {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 13px;
+    color: #4a1019;
+    box-shadow: 10px 15px 1px #e8b4bc;
 }
