@@ -4,8 +4,7 @@
 
 body {
     background-color: white;
-    font-family: sans-serif;
-    color: black;
+    font-family: "DM Sans", sans-serif;
     margin: 0;
 }
 
@@ -54,11 +53,12 @@ body {
     background-repeat: no-repeat;
     padding-top: 120px;
     padding-bottom: 120px;
+    color: #fbf8f7;
+    font-family: "DM Sans", sans-serif;
 }
 
 .landing-page-cover {
     display: flex;
-    color: white;
     width: 1260px;
     max-width: 90%;
     margin: 0 auto;
@@ -92,6 +92,7 @@ body {
 
 .know-us a {
     background-color: white;
+    color: #4a1019;
     text-decoration: none;
     padding: 20px 50px;
     border-radius: 40px;
@@ -119,6 +120,7 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
+    color: #4a1019;
     font-family: "DM Sans", sans-serif;
 }
 
@@ -127,7 +129,6 @@ body {
     width: 1260px;
     max-width: 90%;
     margin: -70px auto;
-    color: black;
 }
 
 .about-us-desc {
@@ -135,7 +136,6 @@ body {
 }
 
 .about-us-desc h3 {
-    color: #6b1d2a;
     font-size: 15px;
 }
 
@@ -178,6 +178,7 @@ body {
     padding-top: 100px;
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
+    color: #4a1019;
     font-family: "DM Sans", sans-serif;
 }
 
@@ -190,7 +191,6 @@ body {
 .about-us-history-cover h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #4a1019;
 }
 
 .bsit-history-1 {
@@ -205,7 +205,6 @@ body {
     text-align: justify;
     line-height: 35px;
     word-spacing: 1px;
-    color: #4a1019;
 }
 
 .bsit-history-1-img {
@@ -236,7 +235,6 @@ body {
     text-align: justify;
     line-height: 35px;
     word-spacing: 1px;
-    color: #4a1019;
 }
 
 .bsit-history-2-img {
@@ -266,7 +264,6 @@ body {
     text-align: justify;
     line-height: 35px;
     word-spacing: 1px;
-    color: #4a1019;
 }
 
 .bsit-history-3-img {
@@ -291,6 +288,7 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
+    color: #4a1019;
     font-family: "DM Sans", sans-serif;
 }
 
@@ -307,7 +305,6 @@ body {
 .about-us-changes-cover h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #4a1019;
 }
 
 .department-logos {
@@ -317,7 +314,6 @@ body {
     gap: 140px;
     margin-top: 70px;
     text-align: center;
-    color: #4a1019;
 }
 
 .ccs-logo img, .tech-logo img {
@@ -350,7 +346,6 @@ body {
     margin-left: auto;
     line-height: 35px;
     font-size: 16px;
-    color: #4a1019;
 }
 
 .about-us-courses {
@@ -362,6 +357,7 @@ body {
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
     border-bottom: 5px solid #6b1d2a;
+    color: #4a1019;
     font-family: "DM Sans", sans-serif;
 }
 
@@ -374,7 +370,6 @@ body {
 .about-us-courses-cover h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #4a1019;
     margin-top: -20px;
 }
 
@@ -412,7 +407,6 @@ body {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     font-size: 13px;
-    color: #4a1019;
     box-shadow: 10px 15px 1px #e8b4bc;
 }
 
@@ -424,6 +418,8 @@ body {
     padding-top: 120px;
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
+    color: #fbf8f7;
+    font-family: "DM Sans", sans-serif;
 }
 
 .meet-faculty-cover {
@@ -431,8 +427,6 @@ body {
     width: 1260px;
     max-width: 90%;
     margin: -70px auto;
-    color: #fbf8f7;
-    font-family: "DM Sans", sans-serif;
 }
 
 .meet-faculty-desc {
@@ -473,27 +467,26 @@ body {
     box-shadow: 20px 15px 1px #e8b4bc;
 }
 
-.meet-faculty-profs {
+.meet-faculty-head {
     background-image: url("images/faculty/profs/background-faculty-head.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 120px;
-    border-top: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
 }
 
 .faculty-head {
     width: 1260px;
     max-width: 90%;
     margin: -50px auto;
-    font-family: "DM Sans", sans-serif;
 }
 
 .faculty-head h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    color: #4a1019;
 }
 
 .department-head-container {
@@ -534,6 +527,68 @@ body {
     border: 5px solid #e8b4bc;
     border-radius: 100px;
     box-shadow: 1px 5px 1px #e8b4bc;
+}
+
+.meet-faculty-profs {
+    background-image: url("images/faculty/profs/background-profs.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-bottom: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
+}
+
+.faculty-profs {
+    width: 1260px;
+    max-width: 90%;
+    margin: -50px auto;
+}
+
+.faculty-profs h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.faculty-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.first-prof, .second-prof,
+.third-prof, .fourth-prof,
+.fifth-prof, .sixth-prof,
+.seventh-prof, .eight-prof,
+.nineth-prof, .tenth-prof,
+.eleventh-prof, .twelveth-prof,
+.thirtheenth-prof, .fourtheenth-prof,
+.fiftheenth-prof {
+    background-color: #6b1d2a;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fbf8f7;
+    box-shadow: 15px 15px 1px #e8b4bc;
+    margin-top: 30px;
+}
+
+.first-prof img, .second-prof img,
+.third-prof img, .fourth-prof img,
+.fifth-prof img, .sixth-prof img,
+.seventh-prof img, .eight-prof img,
+.nineth-prof img, .tenth-prof img,
+.eleventh-prof img, .twelveth-prof img,
+.thirtheenth-prof img, .fourtheenth-prof img,
+.fiftheenth-prof img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    border: 5px solid #e8b4bc;
 }
 
 .footer-side {
