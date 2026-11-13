@@ -10,9 +10,9 @@ body {
 }
 
 .content-nav {
-    background-color: #8d0e0e;
+    background-color: #3b070f;
     border-bottom: 2px solid white;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .content-nav nav ul {
@@ -30,8 +30,6 @@ body {
     font-weight: bold;
     color: white;
     margin-right: 50px;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.5s;
 }
 
 .landing-page-nav {
@@ -50,53 +48,68 @@ body {
 }
 
 .landing-page {
-    background-image: url("images/background.jpg");
+    background-image: url("images/landing/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .landing-page-cover {
+    display: flex;
     color: white;
     width: 1260px;
     max-width: 90%;
-    margin: 155px auto;
+    margin: 0 auto;
 }
 
-.landing-page-cover p {
-    width: 55%;
-    line-height: 30px;
-    margin-left: 5px;
+.headers {
+    margin-top: -100px;
+}
+
+.headers h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 70px;
+    line-height: 35px;
+}
+
+#color-span {
+    color: #e8b4bc;
+}
+
+.headers p {
+    width: 85%;
     text-align: justify;
-    text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.8);
-}
-
-.landing-page-cover h1 {
-    font-size: 60px;
-    text-shadow: 2px 2px 6px rgb(0, 0, 0, 0.8);
-}
-
-.landing-page-cover span {
-    color: #8d0e0e;
+    line-height: 25px;
+    word-spacing: 2px;
 }
 
 .know-us {
-    float: right;
-    margin-right: 90px;
-    margin-top: -80px;
+    margin-top: 50px;
 }
 
 .know-us a {
-    background-color: #8d0e0e;
-    color: white;
+    background-color: white;
     text-decoration: none;
     padding: 20px 50px;
     border-radius: 40px;
     font-weight: bold;
-    transition: background-color 0.5s, color 0.5s;
+}
+
+.landing-img {
+    margin-top: -55px;
+    margin-right: 20px;
+}
+
+.landing-img img {
+    width: 450px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid;
+    box-shadow: 20px 15px 1px #e8b4bc;
 }
 
 .about-us {
