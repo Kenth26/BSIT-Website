@@ -52,7 +52,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -113,11 +112,10 @@ body {
 }
 
 .about-us {
-    background-image: url("images/about-us.jpg");
+    background-image: url("images/about-us/about-us.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     padding-top: 120px;
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
@@ -283,11 +281,10 @@ body {
 }
 
 .about-us-changes {
-    background-image: url("images/about-us.jpg");
+    background-image: url("images/about-us/changes-department.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     padding-top: 120px;
     padding-bottom: 120px;
     border-top: 5px solid #6b1d2a;
