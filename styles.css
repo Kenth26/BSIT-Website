@@ -72,10 +72,12 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 70px;
     line-height: 35px;
+    text-shadow: 5px 5px 3px #c0868f;
 }
 
-#color-span {
+#develop-span {
     color: #e8b4bc;
+    text-shadow: 5px 5px 3px #a3767d;
 }
 
 .headers p {
@@ -143,9 +145,10 @@ body {
     width: 80%;
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
+    text-shadow: 5px 5px 3px #e8b4bc;
 }
 
-.about-us-desc span {
+.create-span {
     color: #6b1d2a;
 }
 
@@ -191,6 +194,7 @@ body {
 .about-us-history-cover h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    text-shadow: 5px 5px 3px #e8b4bc;
 }
 
 .bsit-history-1 {
@@ -305,6 +309,7 @@ body {
 .about-us-changes-cover h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    text-shadow: 5px 5px 3px #e8b4bc;
 }
 
 .department-logos {
@@ -320,7 +325,7 @@ body {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border: 5px solid #e8b4bc;
+    border: 5px solid #6b1d2a;
     border-radius: 200px;
 }
 
@@ -371,6 +376,7 @@ body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-top: -20px;
+    text-shadow: 5px 5px 3px #e8b4bc;
 }
 
 .courses {
@@ -408,6 +414,7 @@ body {
     border-bottom-left-radius: 20px;
     font-size: 13px;
     box-shadow: 10px 15px 1px #e8b4bc;
+    border: 2px solid #c0868f;
 }
 
 .meet-faculty {
@@ -441,10 +448,12 @@ body {
     width: 80%;
     font-family: "Montserrat", sans-serif;
     font-size: 50px;
+    text-shadow: 5px 5px 3px #c0868f;
 }
 
-.meet-faculty-desc span {
+.behind-span {
     color: #e8b4bc;
+    text-shadow: 5px 5px 3px #a3767d;
 }
 
 .meet-faculty-desc p {
@@ -487,6 +496,7 @@ body {
 .faculty-head h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    text-shadow: 5px 5px 3px #e8b4bc;
 }
 
 .department-head-container {
@@ -550,6 +560,7 @@ body {
 .faculty-profs h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    text-shadow: 5px 5px 3px #e8b4bc;
 }
 
 .faculty-container {
@@ -567,7 +578,10 @@ body {
 .eleventh-prof, .twelveth-prof,
 .thirtheenth-prof, .fourtheenth-prof,
 .fiftheenth-prof {
-    background-color: #6b1d2a;
+    background-image: url("images/faculty/profs/container-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 50px;
     border-radius: 20px;
     text-align: center;
