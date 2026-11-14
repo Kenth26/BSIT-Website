@@ -113,7 +113,7 @@ body {
     height: 280px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 20px 15px 1px #e8b4bc;
+    box-shadow: 20px 15px 1px #e8b4bc91;
 }
 
 .about-us {
@@ -172,7 +172,7 @@ body {
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 20px 15px 1px #e8b4bc;
+    box-shadow: 20px 15px 1px #e8b4bc91;
     border: 3px solid #3b070f;
 }
 
@@ -488,7 +488,7 @@ body {
 .net-desc, .sec-desc {
     text-align: center;
     background-color: white;
-    padding: 10px 0;
+    padding: 10px 10px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     font-size: 13px;
@@ -554,7 +554,7 @@ body {
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 20px 15px 1px #e8b4bc;
+    box-shadow: 20px 15px 1px #e8b4bc91;
     border: 3px solid #3b070f;
 }
 
@@ -879,6 +879,133 @@ body {
     border-right: 2px solid #c0868f;
     border-left: 2px solid #c0868f;
     border-bottom: 2px solid #c0868f;
+}
+
+.achievements {
+    background-image: url("images/achievements/achievements-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
+    color: #fbf8f7;
+    font-family: "DM Sans", sans-serif;
+}
+
+.achievements-cover {
+    display: flex;
+    width: 1260px;
+    max-width: 90%;
+    margin: -70px auto;
+}
+
+.achievements-desc {
+    margin-left: -20px;
+}
+
+.achievements-desc h3 {
+    font-size: 15px;
+}
+
+.achievements-desc h1 {
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px 3px #c0868f;
+}
+
+.name-span {
+    color: #e8b4bc;
+    text-shadow: 5px 5px 3px #a3767d;
+}
+
+.achievements-desc p {
+    width: 90%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+.achievements-img {
+    margin-top: 30px;
+}
+
+.achievements-img img {
+    width: 320px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 20px 15px 1px #e8b4bc91;
+    border: 3px solid #3b070f;
+}
+
+.achievements-dyci {
+    background-image: url("images/achievements/achievements-dyci-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-top: 5px solid #fbf8f7;
+    border-bottom: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
+}
+
+.achievements-dyci-cover {
+    width: 1260px;
+    max-width: 90%;
+    margin: -50px auto;
+}
+
+.achievements-dyci-cover h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: -20px;
+    text-shadow: 5px 5px 3px #e8b4bc;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.achievements-container a {
+    text-decoration: none;
+    color:#4a1019;
+}
+
+.ircite-container, .asean-youth-container, .tesda-national-container {
+    margin: 5px;
+}
+
+.ircite-container img, .asean-youth-container img, .tesda-national-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #4a1019;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 10px 15px 1px #e8b4bc;
+}
+
+.ircite-desc, .asean-youth-desc, .tesda-national-desc {
+    text-align: center;
+    background-color: white;
+    padding: 10px 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 13px;
+    box-shadow: 10px 15px 1px #e8b4bc;
+    border-right: 2px solid #4a1019;
+    border-left: 2px solid #4a1019;
+    border-bottom: 2px solid #4a1019;
 }
 
 .footer-side {
