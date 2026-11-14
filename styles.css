@@ -414,7 +414,9 @@ body {
     border-bottom-left-radius: 20px;
     font-size: 13px;
     box-shadow: 10px 15px 1px #e8b4bc;
-    border: 2px solid #c0868f;
+    border-right: 2px solid #c0868f;
+    border-left: 2px solid #c0868f;
+    border-bottom: 2px solid #c0868f;
 }
 
 .meet-faculty {
