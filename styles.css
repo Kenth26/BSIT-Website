@@ -12,6 +12,8 @@ body {
     background-color: #3b070f;
     border-bottom: 2px solid white;
     line-height: 40px;
+    position: sticky;
+    top: 0;
 }
 
 .content-nav nav ul {
@@ -47,7 +49,7 @@ body {
 }
 
 .landing-page {
-    background-image: url("images/landing/background.jpg");
+    background-image: url("images/landing/landing-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,7 +117,7 @@ body {
 }
 
 .about-us {
-    background-image: url("images/about-us/about-us.jpg");
+    background-image: url("images/about-us/about-us-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -171,6 +173,7 @@ body {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 20px 15px 1px #e8b4bc;
+    border: 3px solid #3b070f;
 }
 
 .about-us-history {
@@ -329,6 +332,19 @@ body {
     border-radius: 200px;
 }
 
+.ccs-logo p, .tech-logo p {
+    width: 30%;
+    background-color: #4a1019;
+    font-size: 15px;
+    color: #fbf8f7;
+    padding: 5px 10px;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
 .arrow-logo {
     margin-top: -50px;
 }
@@ -379,7 +395,7 @@ body {
     text-shadow: 5px 5px 3px #e8b4bc;
 }
 
-.courses {
+.courses-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
@@ -399,6 +415,7 @@ body {
     height: 250px;
     object-fit: cover;
     display: block;
+    border: 3px solid #4a1019;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     box-shadow: 10px 15px 1px #e8b4bc;
@@ -414,9 +431,9 @@ body {
     border-bottom-left-radius: 20px;
     font-size: 13px;
     box-shadow: 10px 15px 1px #e8b4bc;
-    border-right: 2px solid #c0868f;
-    border-left: 2px solid #c0868f;
-    border-bottom: 2px solid #c0868f;
+    border-right: 2px solid #4a1019;
+    border-left: 2px solid #4a1019;
+    border-bottom: 2px solid #4a1019;
 }
 
 .meet-faculty {
@@ -476,6 +493,7 @@ body {
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 20px 15px 1px #e8b4bc;
+    border: 3px solid #3b070f;
 }
 
 .meet-faculty-head {
@@ -605,6 +623,200 @@ body {
     object-fit: cover;
     border-radius: 100px;
     border: 5px solid #e8b4bc;
+}
+
+.events {
+    background-image: url("images/events/events-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
+}
+
+.events-cover {
+    display: flex;
+    width: 1260px;
+    max-width: 90%;
+    margin: -70px auto;
+}
+
+.events-desc {
+    margin-left: -20px;
+}
+
+.events-desc h3 {
+    font-size: 15px;
+}
+
+.events-desc h1 {
+    width: 90%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px 3px #e8b4bc;
+}
+
+.beyond-span {
+    color: #6b1d2a;
+}
+
+.events-desc p {
+    width: 90%;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+.events-img {
+    margin-top: 30px;
+}
+
+.events-img img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 20px 15px 1px #cf9ba3;
+    border: 3px solid #3b070f;
+}
+
+.events-upcoming {
+    background-image: url("images/events/upcoming/upcoming-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
+}
+
+.events-upcoming-cover {
+    width: 1260px;
+    max-width: 90%;
+    margin: -50px auto;
+}
+
+.events-upcoming-cover h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 3px #e8b4bc;
+}
+
+.events-upcoming-container {
+    background-color: #fbf8f7;
+    padding: 70px 70px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #e8b4bc;
+    text-align: center;
+}
+
+.events-upcoming-desc h2 {
+    width: 60%;
+    background-color: #4a1019;
+    font-size: 15px;
+    color: #fbf8f7;
+    padding: 5px 10px;
+    border-radius: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.events-upcoming-desc p {
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 2px;
+    margin-top: 30px;
+}
+
+.events-upcoming-container img {
+    width: 750px;
+    height: 270px;
+    object-fit: cover;
+    border: 5px solid #6b1d2a;
+    border-radius: 20px;
+    box-shadow: 1px 5px 1px #e8b4bc;
+}
+
+.events-previous {
+    background-image: url("images/events/previous/previous-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-top: 5px solid #fbf8f7;
+    border-bottom: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
+}
+
+.events-previous-cover {
+    width: 1260px;
+    max-width: 90%;
+    margin: -50px auto;
+}
+
+.events-previous-cover h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #fbf8f7;
+    text-align: center;
+    margin-top: -20px;
+    text-shadow: 5px 5px 3px #a3767d;
+}
+
+.events-previous-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.events-previous-container a {
+    text-decoration: none;
+    color:#4a1019;
+}
+
+.web101-container, .it-spec-container,
+.dict-hackforgov-container, .fourth-year-capstone-container,
+.protocol-breach-container, .fourth-regional-cybersecurity-container {
+    margin: 5px;
+}
+
+.web101-container img, .it-spec-container img,
+.dict-hackforgov-container img, .fourth-year-capstone-container img,
+.protocol-breach-container img, .fourth-regional-cybersecurity-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #c0868f;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 13px 15px 1px #31060c;
+}
+
+.web101-desc, .it-spec-desc,
+.dict-hackforgov-desc, .fourth-year-capstone-desc,
+.protocol-breach-desc, .fourth-regional-cybersecurity-desc {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 13px;
+    box-shadow: 13px 15px 1px #31060c;
+    border-right: 2px solid #c0868f;
+    border-left: 2px solid #c0868f;
+    border-bottom: 2px solid #c0868f;
 }
 
 .footer-side {
