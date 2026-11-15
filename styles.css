@@ -266,13 +266,6 @@ body {
     border-bottom: 2px solid #c0868f;
 }
 
-.explore-faculty-desc p, .explore-events-desc p,
-.explore-achievements-desc p, .explore-contacts-desc p {
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .about-us {
     background-image: url("images/about-us/about-us-background.jpg");
     background-size: cover;
@@ -1631,11 +1624,6 @@ body {
     .events-previous-container, .faculty-container {
         grid-template-columns: 1fr;
         gap: 25px;
-    }
-
-    .explore-faculty-desc p, .explore-events-desc p,
-    .explore-achievements-desc p, .explore-contacts-desc p {
-        width: 85%;
     }
 
     .bsit-history-1-img, .bsit-history-2-img, .bsit-history-3-img {
