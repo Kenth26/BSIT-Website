@@ -1653,11 +1653,6 @@ body {
         margin-top: 0;
     }
 
-    .arrow-logo p {
-        transform: rotate(90deg);
-        margin: 10px 0;
-    }
-
     .about-us-changes-desc {
         margin-top: 30px;
     }
