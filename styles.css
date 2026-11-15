@@ -31,6 +31,16 @@ body {
     font-weight: bold;
     color: #fbf8f7;
     margin-right: 50px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.content-nav nav ul li a:hover {
+    border-bottom-color: #fbf8f7;
+}
+
+#active {
+    border-bottom: 2px solid #fbf8f7;
 }
 
 .landing-page-nav {
@@ -1312,4 +1322,8 @@ body {
     color: white;
     padding: 8px 20px;
     border-top: 2px solid;
+}
+
+#menu-toggle, .hamburger {
+    display: none;
 }
