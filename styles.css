@@ -1328,3 +1328,469 @@ body {
 #menu-toggle, .hamburger {
     display: none;
 }
+
+@media (max-width: 1200px) {
+    .content-nav nav ul {
+        padding: 5px 25px;
+    }
+
+    .content-nav nav ul li a {
+        margin-right: 30px;
+    }
+
+    .landing-page, .landing-page2, .landing-page3,
+    .about-us, .about-us-history, .about-us-changes,
+    .about-us-laboratories, .about-us-courses,
+    .meet-faculty, .meet-faculty-head, .meet-faculty-profs,
+    .events, .events-upcoming, .events-previous,
+    .achievements, .achievements-dyci, .contacts {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .landing-page-cover, .landing-page2-cover, .landing-page3-cover,
+    .about-us-cover, .about-us-history-cover, .about-us-changes-cover,
+    .about-us-laboratories-cover, .about-us-courses-cover,
+    .meet-faculty-cover, .faculty-head, .faculty-profs,
+    .events-cover, .events-upcoming-cover, .events-previous-cover,
+    .achievements-cover, .achievements-dyci-cover {
+        margin: 0 auto;
+    }
+
+    .landing-page-cover, .about-us-cover, .meet-faculty-cover,
+    .events-cover, .achievements-cover {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .headers {
+        margin-top: 0;
+    }
+
+    .headers h1 {
+        font-size: 56px;
+        line-height: 28px;
+    }
+
+    .headers p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .landing-img {
+        margin: 30px;
+    }
+
+    .landing-img img {
+        width: 100%;
+        max-width: 450px;
+        height: 250px;
+    }
+
+    .about-us-desc, .meet-faculty-desc,
+    .events-desc, .achievements-desc {
+        margin-left: 0;
+    }
+
+    .about-us-desc h1, .meet-faculty-desc h1,
+    .events-desc h1, .achievements-desc h1 {
+        width: 100%;
+        font-size: 44px;
+    }
+
+    .about-us-desc p, .meet-faculty-desc p,
+    .events-desc p, .achievements-desc p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-us-img, .meet-faculty-img,
+    .events-img, .achievements-img {
+        margin-top: 0;
+    }
+
+    .landing-aboutus-img {
+        float: none;
+        margin: 0 0 40px;
+        text-align: center;
+    }
+
+    .landing-aboutus-img img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .landing-aboutus {
+        width: 100%;
+    }
+
+    .landing-aboutus h5, .landing-aboutus h1 {
+        text-align: center;
+    }
+
+    .landing-aboutus a {
+        width: fit-content;
+        margin: 10px auto 0;
+        text-align: center;
+    }
+
+    .landing-page3-cover h1 {
+        width: 80%;
+    }
+
+    .exploremore-container, .courses-container,
+    .events-previous-container, .faculty-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bsit-history-1, .bsit-history-2, .bsit-history-3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .bsit-history-1 p, .bsit-history-2 p, .bsit-history-3 p {
+        margin-top: 20px;
+        line-height: 32px;
+    }
+
+    .bsit-history-1-img, .bsit-history-2-img, .bsit-history-3-img {
+        float: none;
+        margin: 50px auto 0;
+        text-align: center;
+    }
+
+    .bsit-history-1-img img, .bsit-history-2-img img, .bsit-history-3-img img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .department-logos {
+        gap: 60px;
+    }
+
+    .ccs-logo p, .tech-logo p {
+        width: 40%;
+    }
+
+    .department-head-container {
+        padding: 50px 40px;
+        gap: 30px;
+    }
+
+    .department-head-desc h3 {
+        width: fit-content;
+        padding: 5px 20px;
+    }
+
+    .events-upcoming-container {
+        padding: 40px;
+    }
+
+    .events-upcoming-desc h2 {
+        width: 80%;
+    }
+
+    .contacts h1 {
+        margin-top: 0;
+    }
+
+    .contacts-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hamburger {
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        padding: 10px 20px;
+    }
+
+    .content-nav nav ul {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .content-nav nav ul li a {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .landing-page-nav {
+        margin: 0;
+    }
+
+    #menu-toggle:checked ~ ul {
+        display: flex;
+    }
+
+    .landing-page, .landing-page2, .landing-page3,
+    .about-us, .about-us-history, .about-us-changes,
+    .about-us-laboratories, .about-us-courses,
+    .meet-faculty, .meet-faculty-head, .meet-faculty-profs,
+    .events, .events-upcoming, .events-previous,
+    .achievements, .achievements-dyci, .contacts {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .landing-page-cover, .about-us-cover, .meet-faculty-cover,
+    .events-cover, .achievements-cover {
+        gap: 30px;
+    }
+
+    .headers h1 {
+        font-size: 40px;
+        line-height: 20px;
+    }
+
+    .headers p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .know-us {
+        margin-top: 30px;
+    }
+
+    .know-us a {
+        padding: 16px 36px;
+    }
+
+    .about-us-desc h1, .meet-faculty-desc h1,
+    .events-desc h1, .achievements-desc h1 {
+        font-size: 32px;
+    }
+
+    .about-us-desc h3, .meet-faculty-desc h3,
+    .events-desc h3, .achievements-desc h3 {
+        font-size: 13px;
+    }
+
+    .events-desc h3 {
+        color: #fbf8f7;
+    }
+
+    .about-us-desc p, .meet-faculty-desc p,
+    .events-desc p, .achievements-desc p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .about-us-img img, .meet-faculty-img img, .achievements-img img {
+        width: 260px;
+        height: 290px;
+        max-width: 100%;
+    }
+
+    .events-img img {
+        width: 260px;
+        height: 280px;
+        max-width: 100%;
+    }
+
+    .landing-aboutus h1, .landing-page3-cover h1,
+    .about-us-history-cover h1, .about-us-changes-cover h1,
+    .about-us-laboratories-cover h1, .about-us-courses-cover h1,
+    .faculty-head h1, .faculty-profs h1,
+    .events-upcoming-cover h1, .events-previous-cover h1,
+    .achievements-dyci-cover h1, .contacts h1 {
+        font-size: 26px;
+    }
+
+    .landing-aboutus p, .bsit-history-1 p,
+    .bsit-history-2 p, .bsit-history-3 p,
+    .about-us-changes-desc p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .landing-page3-cover h1 {
+        width: 100%;
+    }
+
+    .exploremore-container, .courses-container,
+    .events-previous-container, .faculty-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .explore-faculty-desc p, .explore-events-desc p,
+    .explore-achievements-desc p, .explore-contacts-desc p {
+        width: 85%;
+    }
+
+    .bsit-history-1-img, .bsit-history-2-img, .bsit-history-3-img {
+        margin-top: 35px;
+    }
+
+    .about-us-changes-cover {
+        padding: 25px 15px;
+    }
+
+    .department-logos {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .ccs-logo img, .tech-logo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ccs-logo p, .tech-logo p {
+        width: 50%;
+    }
+
+    .arrow-logo {
+        margin-top: 0;
+    }
+
+    .arrow-logo p {
+        transform: rotate(90deg);
+        margin: 10px 0;
+    }
+
+    .about-us-changes-desc {
+        margin-top: 30px;
+    }
+
+    .about-us-changes-desc p {
+        width: 100%;
+    }
+
+    .laboratories-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .sandbox-container, .raise-lab-container, .nexus-container {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .first-prof, .second-prof,
+    .third-prof, .fourth-prof,
+    .fifth-prof, .sixth-prof,
+    .seventh-prof, .eight-prof,
+    .nineth-prof, .tenth-prof,
+    .eleventh-prof, .twelveth-prof,
+    .thirtheenth-prof, .fourtheenth-prof,
+    .fiftheenth-prof {
+        padding: 30px 20px;
+        box-shadow: 8px 8px 1px #e8b4bc;
+        margin-top: 10px;
+    }
+
+    .department-head-container {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .department-head-container img {
+        width: 100%;
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .department-head-desc h3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .department-head-desc p {
+        line-height: 28px;
+        font-size: 14px;
+        word-spacing: 1px;
+    }
+
+    .events-upcoming-container {
+        padding: 25px 20px;
+    }
+
+    .events-upcoming-container img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .events-upcoming-desc h2 {
+        width: 100%;
+        padding: 8px 15px;
+    }
+
+    .events-upcoming-desc p {
+        margin-top: 25px;
+        font-size: 14px;
+        line-height: 28px;
+        word-spacing: 1px;
+    }
+
+    .achievements-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .ircite-container, .asean-youth-container, .tesda-national-container {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .contacts-container {
+        gap: 30px;
+    }
+
+    .address-container, .email-container, .number-container {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .address-desc h4, .email-desc h4, .number-desc h4 {
+        width: fit-content;
+        padding: 0 15px;
+    }
+
+    .address-desc p, .email-desc p, .number-desc p {
+        overflow-wrap: anywhere;
+    }
+
+    .socials-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contact-form {
+        padding: 20px;
+        box-shadow: 8px 8px 1px #e8b4bc;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-form button {
+        width: 100%;
+    }
+}
