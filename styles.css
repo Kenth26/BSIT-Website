@@ -1394,6 +1394,10 @@ body {
         font-size: 44px;
     }
 
+    .events-desc h3 {
+        color: #cf9ba3;
+    }
+
     .about-us-desc p, .meet-faculty-desc p,
     .events-desc p, .achievements-desc p {
         width: 90%;
