@@ -1289,10 +1289,6 @@ body {
     border-radius: 12px;
 }
 
-.form-group textarea {
-    resize: none;
-}
-
 .form-group input:focus, .form-group textarea:focus {
     outline: none;
     border-color: #6b1d2a;
