@@ -1560,7 +1560,8 @@ body {
     .about-us-laboratories, .about-us-courses,
     .meet-faculty, .meet-faculty-head, .meet-faculty-profs,
     .events, .events-upcoming, .events-previous,
-    .achievements, .achievements-dyci, .contacts {
+    .achievements, .achievements-dyci, .contacts,
+    .meet-team, .our-prof-page {
         padding-top: 60px;
         padding-bottom: 80px;
     }
@@ -1570,7 +1571,7 @@ body {
     .about-us-laboratories-cover, .about-us-courses-cover,
     .meet-faculty-cover, .faculty-head, .faculty-profs,
     .events-cover, .events-upcoming-cover, .events-previous-cover,
-    .achievements-cover, .achievements-dyci-cover {
+    .achievements-cover, .achievements-dyci-cover, .meet-mentor {
         margin: 0 auto;
     }
 
@@ -1665,7 +1666,8 @@ body {
     }
 
     .exploremore-container, .courses-container,
-    .events-previous-container, .faculty-container {
+    .events-previous-container, .faculty-container,
+    .team-developers-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -1717,13 +1719,51 @@ body {
         width: 80%;
     }
 
-    .contacts h1 {
+    .contacts h1, .our-prof-page h1 {
         margin-top: 0;
     }
 
     .contacts-container {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .meet-devs {
+        margin: 60px auto 0;
+    }
+
+    .meet-mentor h1 {
+        width: 80%;
+    }
+
+    .team-mentor-container {
+        padding: 50px 40px;
+        gap: 30px;
+    }
+
+    .team-mentor-desc h3 {
+        width: fit-content;
+        padding: 5px 20px;
+    }
+
+    .our-prof-page-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .henry-img {
+        text-align: center;
+    }
+
+    .henry-img img {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .henry-dyci {
+        width: 100%;
+        max-width: 400px;
+        margin: 50px auto 0;
     }
 }
 
@@ -1833,7 +1873,9 @@ body {
     .about-us-laboratories-cover h1, .about-us-courses-cover h1,
     .faculty-head h1, .faculty-profs h1,
     .events-upcoming-cover h1, .events-previous-cover h1,
-    .achievements-dyci-cover h1, .contacts h1 {
+    .achievements-dyci-cover h1, .contacts h1,
+    .meet-mentor h1, .meet-devs h1,
+    .our-prof-page h1 {
         font-size: 26px;
     }
 
@@ -1849,7 +1891,8 @@ body {
     }
 
     .exploremore-container, .courses-container,
-    .events-previous-container, .faculty-container {
+    .events-previous-container, .faculty-container,
+    .team-developers-container {
         grid-template-columns: 1fr;
         gap: 25px;
     }
@@ -1999,5 +2042,84 @@ body {
 
     .contact-form button {
         width: 100%;
+    }
+
+    .meet-devs {
+        margin-top: 40px;
+    }
+
+    .meet-mentor h1 {
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .team-mentor-container {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 25px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .team-mentor-container img {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .team-mentor-desc h3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-mentor-desc h2 {
+        font-size: 20px;
+    }
+
+    .team-mentor-desc p {
+        line-height: 28px;
+        font-size: 14px;
+        word-spacing: 1px;
+    }
+
+    .first-dev, .second-dev, .third-dev {
+        padding: 30px 20px;
+        margin-top: 10px;
+    }
+
+    .our-prof-page-container {
+        gap: 30px;
+    }
+
+    .henry-img img {
+        max-width: 260px;
+        height: 370px;
+    }
+
+    .henry-dyci {
+        margin: 40px auto 0;
+        padding: 20px 15px;
+    }
+
+    .henry-dyci h4 {
+        width: fit-content;
+        padding: 0 15px;
+        font-size: 16px;
+    }
+
+    .henry-desc span {
+        font-size: 15px;
+    }
+
+    .henry-desc h2 {
+        font-size: 20px;
+    }
+
+    .henry-desc p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .pcpe, .teacher, .researcher, .community {
+        margin-top: 30px;
     }
 }
