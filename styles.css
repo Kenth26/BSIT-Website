@@ -1435,6 +1435,95 @@ body {
     cursor: pointer;
 }
 
+.our-prof-page {
+    background-image: url("images/prof-henry/prof-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    border-top: 5px solid #6b1d2a;
+    border-bottom: 5px solid #6b1d2a;
+    color: #4a1019;
+    font-family: "DM Sans", sans-serif;
+}
+
+.our-prof-page h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: -50px;
+    text-shadow: 5px 5px 3px #e8b4bc;
+}
+
+.our-prof-page-container {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+    width: 1260px;
+    max-width: 90%;
+    margin: 50px auto;
+    gap: 70px;
+    align-items: start;
+}
+
+.henry-img {
+    margin-top: 20px;
+}
+
+.henry-img img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #4a1019;
+    box-shadow: 15px 15px 1px #e8b4bc;
+}
+
+.henry-dyci {
+    color: #fbf8f7;
+    font-size: 15px;
+    background-color: #4a1019;
+    padding: 25px 25px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 1px #e8b4bc;
+}
+
+.henry-dyci h4 {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    margin-top: -5px;
+    font-size: 20px;
+    background-color: #fbf8f7;
+    color: #6b1d2a;
+    text-align: center;
+}
+
+.henry-dyci p {
+    margin-top: -10px;
+}
+
+.henry-dyci a {
+    display: block;
+    margin-top: -10px;
+    color: #fbf8f7;
+}
+
+.henry-desc span {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.henry-desc p {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.henry-desc h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
 .footer-side {
     text-align: center;
     background-color: #3b070f;
