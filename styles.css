@@ -1460,7 +1460,7 @@ body {
     grid-template-columns: 4fr 10fr;
     width: 1260px;
     max-width: 90%;
-    margin: 50px auto;
+    margin: 50px auto 0;
     gap: 90px;
     align-items: start;
 }
