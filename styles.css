@@ -14,6 +14,7 @@ body {
     line-height: 40px;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .content-nav nav ul {
@@ -105,12 +106,18 @@ body {
 }
 
 .know-us a {
+    display: inline-block;
     background-color: white;
     color: #4a1019;
     text-decoration: none;
     padding: 20px 50px;
     border-radius: 40px;
     font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.know-us a:hover {
+    transform: scale(1.08);
 }
 
 .landing-img {
@@ -179,6 +186,11 @@ body {
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.landing-aboutus a:hover {
+    transform: scale(1.08);
 }
 
 .landing-aboutus-img {
@@ -234,6 +246,11 @@ body {
 .exploremore-container a {
     text-decoration: none;
     color:#4a1019;
+    transition: 0.3s ease;
+}
+
+.exploremore-container a:hover {
+    transform: scale(1.08);
 }
 
 .explore-faculty-container, .explore-events-container,
@@ -344,6 +361,11 @@ body {
     font-weight: bold;
     margin-top: 20px;
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.team-mentor-desc a:hover {
+    transform: scale(1.08);
 }
 
 .team-mentor-container img {
@@ -384,6 +406,11 @@ body {
     box-shadow: 1px 1px 10px #6b1d2a;
     margin-top: 30px;
     border: 3px solid #f3e9ea;
+    transition: 0.3s ease;
+}
+
+.first-dev:hover, .second-dev:hover, .third-dev:hover {
+    transform: scale(1.05);
 }
 
 .first-dev img, .second-dev img, .third-dev img {
@@ -684,6 +711,11 @@ body {
 
 .sandbox-container, .raise-lab-container, .nexus-container {
     margin: 5px;
+    transition: 0.3s ease;
+}
+
+.sandbox-container:hover, .raise-lab-container:hover, .nexus-container:hover {
+    transform: scale(1.05);
 }
 
 .sandbox-container img, .raise-lab-container img, .nexus-container img {
@@ -747,6 +779,13 @@ body {
 .web-container, .app-container,
 .net-container, .sec-container {
     margin: 5px;
+    transition: 0.3s ease;
+}
+
+.itp-container:hover, .dbm-container:hover,
+.web-container:hover, .app-container:hover,
+.net-container:hover, .sec-container:hover {
+    transform: scale(1.05);
 }
 
 .itp-container img, .dbm-container img,
@@ -950,6 +989,18 @@ body {
     box-shadow: 15px 15px 1px #e8b4bc;
     margin-top: 30px;
     border: 3px solid #3b070f;
+    transition: 0.3s ease;
+}
+
+.first-prof:hover, .second-prof:hover,
+.third-prof:hover, .fourth-prof:hover,
+.fifth-prof:hover, .sixth-prof:hover,
+.seventh-prof:hover, .eight-prof:hover,
+.nineth-prof:hover, .tenth-prof:hover,
+.eleventh-prof:hover, .twelveth-prof:hover,
+.thirtheenth-prof:hover, .fourtheenth-prof:hover,
+.fiftheenth-prof:hover {
+    transform: scale(1.05);
 }
 
 .first-prof img, .second-prof img,
@@ -1132,6 +1183,13 @@ body {
 .dict-hackforgov-container, .fourth-year-capstone-container,
 .protocol-breach-container, .fourth-regional-cybersecurity-container {
     margin: 5px;
+    transition: 0.3s ease;
+}
+
+.web101-container:hover, .it-spec-container:hover,
+.dict-hackforgov-container:hover, .fourth-year-capstone-container:hover,
+.protocol-breach-container:hover, .fourth-regional-cybersecurity-container:hover {
+    transform: scale(1.05);
 }
 
 .web101-container img, .it-spec-container img,
@@ -1263,6 +1321,11 @@ body {
 
 .ircite-container, .asean-youth-container, .tesda-national-container {
     margin: 5px;
+    transition: 0.3s ease;
+}
+
+.ircite-container:hover, .asean-youth-container:hover, .tesda-national-container:hover {
+    transform: scale(1.05);
 }
 
 .ircite-container img, .asean-youth-container img, .tesda-national-container img {
